@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(28, 1, 1);
+  color: rgb(252, 252, 252)
+}
+.jumbo-color{
+  background-color: rgb(83,81,81);
+
+}
+.form{
+  color:rgb(177,168,168)
+}
+.form-control{
+  background-color: skyblue;
+}
