@@ -111,6 +111,6 @@ def delete_post(request, id):
         if request.method == 'POST':
             pi = Post.objects.get(pk=id)
             pi.delete()
-            return HttpResponseRedirect('/dashbord/')
+            return HttpResponseRedirect('/dashboard/')
     else:
         return HttpResponseRedirect('/login/')
